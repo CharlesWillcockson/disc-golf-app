@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import Menu from "../../components/menu/menu.component";
 
 const Home = () => {
@@ -34,7 +35,12 @@ const Home = () => {
     },
   ];
 
-  return <Menu pages={pages} />;
+  return (
+    <div>
+      <Menu pages={pages} />
+      <Outlet />
+    </div>
+  );
 };
 
 export default Home;

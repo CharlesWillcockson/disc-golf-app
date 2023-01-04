@@ -1,0 +1,26 @@
+[
+    {
+        "id" : 1,
+        "name" : "Nani Falcone",
+        "imageUrl" : "https://www.dgcoursereview.com/course_pics/11560/698284fe.jpg",
+        "holes" : 18
+    },
+    {
+        "id" : 2,
+        "name" : "Live Oak Lakeside",
+        "imageUrl" : "https://d22ksth68ujgu2.cloudfront.net/7af58ebef26c832a644ef62accdb7899_m_IMG_4872.jpg",
+        "holes" : 18
+    },
+    {
+        "id" : 3,
+        "name" : "Live Oak Hillside",
+        "imageUrl" : "https://d22ksth68ujgu2.cloudfront.net/5a73110e9e076734820b69d338938c0e_m_IMG_4714.jpg",
+        "holes" : 18
+    },
+    {
+        "id" : 4,
+        "name" : "Pearsall Park",
+        "imageUrl" : "https://www.dgcoursereview.com/course_pics/3025/643df2bc.jpg",
+        "holes" : 18
+    }
+]

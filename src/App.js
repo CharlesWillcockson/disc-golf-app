@@ -1,17 +1,9 @@
-import { Routes, Route, Outlet } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
+
 import Navigation from './routes/navigation/navigation.component';
 import Home from "./routes/home/home.component";
 import Authentication from './routes/authentication/authentication.component';
-
-const Courses = () => {
-  return (
-    <div>
-      <h1>
-        I am the courses page!
-      </h1>
-    </div>
-  )
-}
+import Courses from './routes/courses/courses.component';
 
 const App = () => {
   return(

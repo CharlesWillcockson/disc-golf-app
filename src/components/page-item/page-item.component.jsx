@@ -1,10 +1,14 @@
+import { useNavigate } from "react-router-dom";
 import "./page-item.styles.scss";
 
 const PageItem = ({ page }) => {
-  const { image, title } = page;
+  const { image, title, route } = page;
+  const navigate = useNavigate();
+
+  const onNavigateHandler = () => navigate(route);
 
   return (
-    <div className="page-container">
+    <div className="page-container" onClick={onNavigateHandler}>
       <div
         className="background-image"
         style={{ backgroundImage: `url(${image})` }}
